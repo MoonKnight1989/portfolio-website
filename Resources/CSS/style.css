@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url("https://use.typekit.net/wif3hlr.css");
+
+/* UNIVERSAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 60px;
+    color: white;
+    padding:10px 0px;
+}
+
+h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h4 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-family: Runda, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+}
+li, button {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    font-family: runda, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%; 
+    background-color: #272727;
+}
+
+section {
+    padding: 100px 0px 100px 0px;
+    background-color: #272727;
+}
+
+button {
+    padding: 1px 8px;
+    background-color: #FF1577;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.content-container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* UNIVERSAL STYLES END */
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color:white;
+}
+
+.nav-links li a:hover {
+    color: #FF1577;
+}
+
+button.nav-cta {
+    margin-left: 20px;
+}
+ button.nav-cta:hover {
+    background-color: white;
+    color: #272727;
+    cursor: pointer;
+ }
+
+ /* HERO SECTION */
+
+ .hero-section {
+    height: 80vh;
+    background-color: #272727;
+ }
+
+ .hero-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+ }
+
+ .hero-button {
+    margin-top: 50px;
+    font-size: 22px;
+ }
+
+ /* MY PROJECTS SECTION */
+
+ .tile-block {
+    display: flex;
+    margin-left: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    text-align: left;
+ }
+
+.feature-tile {
+    background-color: aqua;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.feature-tile p {
+    margin-bottom: 20px;
+}
