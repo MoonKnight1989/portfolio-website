@@ -27,7 +27,6 @@ h2 {
 h3 {
     font-family: "Archivo Black", sans-serif;
     font-size: 40px;
-    color: white;
 }
 
 h4 {
@@ -38,9 +37,10 @@ h4 {
 
 p {
     font-family: Runda, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     line-height: 1.5;
+    font-weight: 500;
 }
 li, button {
     font-family: "Archivo Black", sans-serif;
@@ -63,7 +63,9 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 10%; 
-    background-color: #272727;
+    background-color: none;
+    position: absolute;
+    width: 100%;
 }
 
 section {
@@ -90,11 +92,10 @@ button {
 .content-container-flex {
     width: 80vw;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     text-align: left;
-    align-items: center;
-    justify-content: space-between;
+    align-items: top;
+    border: red 1px solid;
 }
 /* UNIVERSAL STYLES END */
 
@@ -114,7 +115,7 @@ button {
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
-    color:white;
+    color: white;
 }
 
 .nav-links li a:hover {
@@ -133,13 +134,14 @@ button.nav-cta {
  /* HERO SECTION */
 
  .hero-section {
-    height: 80vh;
+    height: 100vh;
     background-color: #272727;
  }
 
  .hero-text {
     margin-left: auto;
     margin-right: auto;
+    padding-top: 7%;
     width: 60%;
     text-align: center;
  }
@@ -147,6 +149,8 @@ button.nav-cta {
  .hero-button {
     margin-top: 50px;
     font-size: 22px;
+    background-color: #FF1577;
+    padding: 15px 8px;
  }
 
  /* MY PROJECTS SECTION */
@@ -157,30 +161,34 @@ button.nav-cta {
     margin-top: 20px;
     justify-content: space-between;
     text-align: left;
+    color: #272727;
  }
 
 .feature-tile {
     background-color: aqua;
     margin: 10px 10px;
     padding: 10px;
+    color: #272727;
 }
 
 .feature-tile p {
     margin-bottom: 20px;
+    
 }
 
 /* TEXT LEFT/IMAGE RIGHT SECTION */
 
 .text-left {
-    width: 50%;
+    margin-right: 10%;
 }
 
 .text-right {
     text-align: right;
-    width: 50%;
-
+    border: red 1px solid;
+    margin-left: 10%;
 }
 
 .flex-image {
-   
+ width: 60%;
+
 }
