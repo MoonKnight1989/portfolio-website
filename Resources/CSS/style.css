@@ -27,6 +27,7 @@ h2 {
 h3 {
     font-family: "Archivo Black", sans-serif;
     font-size: 40px;
+    margin-bottom: 10px;;
 }
 
 h4 {
@@ -95,7 +96,6 @@ button {
     margin: 10px auto;
     text-align: left;
     align-items: top;
-    border: red 1px solid;
 }
 /* UNIVERSAL STYLES END */
 
@@ -134,7 +134,7 @@ button.nav-cta {
  /* HERO SECTION */
 
  .hero-section {
-    height: 100vh;
+    height: 80vh;
     background-color: #272727;
  }
 
@@ -169,11 +169,23 @@ button.nav-cta {
     margin: 10px 10px;
     padding: 10px;
     color: #272727;
+    width: 300px;
+    height: 300px;
+    max-width: 350px;
+    position: relative;
+
 }
 
 .feature-tile p {
     margin-bottom: 20px;
-    
+    color: #272727;
+
+}
+
+.feature-tile-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* TEXT LEFT/IMAGE RIGHT SECTION */
